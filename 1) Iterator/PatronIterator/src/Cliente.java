@@ -1,4 +1,5 @@
-public class CompradorWeb {
+
+public class Cliente {
     public void mostrarProductos(Inventario inventario) {
         Iterator iterator = inventario.crearIterador();
 

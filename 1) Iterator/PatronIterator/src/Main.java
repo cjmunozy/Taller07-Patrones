@@ -5,7 +5,7 @@ public class Main {
         inventario.agregarProducto(new Producto("Teléfono", 800));
         inventario.agregarProducto(new Producto("Tableta", 400));
 
-        CompradorWeb compradorWeb = new CompradorWeb();
+        Cliente compradorWeb = new Cliente();
         compradorWeb.mostrarProductos(inventario);
     }
 }
